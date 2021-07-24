@@ -3,10 +3,8 @@ def binary_search(lst, value):
     final = len(lst)
     while init < final :
         dist = final-init
-        half = (dist //2)+ init
+        half = (dist //2)+init
         
-        left = lst[:]
-        right = lst[:]
 
         if lst[half] ==value:
             return half
